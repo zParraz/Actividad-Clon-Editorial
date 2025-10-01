@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo general del header */
+header {
+  width: 100%;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Sección izquierda (iconos) */
+.izquierdo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.izquierdo img {
+  width: 25px;
+  cursor: pointer;
+}
+
+/* Logo principal */
+.logocolom img {
+  width: 368px;
+  position: relative;
+  top: -1rem;
+  vertical-align: middle;
+}
+
+.logocolom {
+  line-height: 1.5;
+  text-align: center;
+  flex: 1;
+}
+
+.logocolom p {
+  position: relative;
+  top: 3.5rem;
+  font-size: 12px;
+  color: #626260;
+  margin-top: 5px;
+
+}
+
+/* Sección derecha (buscar y menú) */
+.derecha {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.derecha img {
+  width: 20px;
+  cursor: pointer;
+
+}
+
+/* Botón suscribirse */
+.juju {
+  position: relative;
+  background-color: #ccd325;
+  border: none;
+  padding: 6px 24px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 3px;
+
+}
+
+
+/* Menú principal */
+
+.jojo,
+.news {
+  display: flex;
+  align-items: center;
+}
+
+
+.jojo {
+  width: 100%;
+  margin-top: 10px;
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  background-color:#d2d2cd;
+}
+
+.jojo nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 25px;
+  padding: 8px 0;
+  flex-direction: row;
+}
+
+.jojo a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 40px;
+}
+
+/* Noticias en franja */
+.news {
+  width: 100%;
+  padding: 8px 15px;
+  font-size: 14px;
+  border-bottom: 1px solid #e6e6e6;
+  text-align: center;
+  color: #333;
+  display: flex;
+  flex-direction: row;
+}
+
+.span-1 {
+  border-left: solid 2px black;
+  margin: 5px;
+  padding-left: 2rem;
+
+}
+.span-2 {
+  margin: 5px;
+  padding-left: 2rem;
+
+}
+.mas {
+  width: max-content;
+}
+.nav {
+  align-items: center;
+}
