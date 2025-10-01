@@ -1,3 +1,159 @@
-* {
-    font-family:'Times New Roman', Times, serif;
+.main {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo general del header */
+header {
+    width: fit-content;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Sección izquierda (iconos) */
+.izquierdo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+    left: 19rem;
+}
+
+.izquierdo img {
+    width: 25px;
+    cursor: pointer;
+}
+
+/* Logo principal */
+.logocolom img {
+    width: 368px;
+    position: relative;
+    top: -1rem;
+    vertical-align: middle;
+}
+
+.logocolom {
+    line-height: 1.5;
+    text-align: center;
+    flex: 1;
+}
+
+.logocolom p {
+    position: relative;
+    top: 4.5rem;
+    font-size: 12px;
+    color: #626260;
+    margin-top: 5px;
+
+}
+
+/* Sección derecha (buscar y menú) */
+.derecha {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    position: relative;
+    right: 21rem;
+}
+
+.derecha img {
+    width: 20px;
+    cursor: pointer;
+
+}
+
+/* Botón suscribirse */
+.juju {
+    position: relative;
+    background-color: #ccd325;
+    border: none;
+    padding: 6px 24px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+
+
+/* Menú principal */
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.superior {
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.jojo {
+    width: 100%;
+    margin-top: 10px;
+    border-top: 1px solid #e6e6e6;
+    background-color: #dfdfdb9f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.jojo nav {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 8px 0;
+    flex-direction: row;
+    position: relative;
+    top: 0.5rem;
+}
+
+.jojo a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+/* Noticias en franja */
+.news {
+    width: fit-content;
+    padding: 8px 15px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+    display: flex;
+    flex-direction: row;
+}
+
+.span-1 {
+    border-left: solid 2px black;
+    padding-left: 10px;
+}
+
+.span-2 {
+    padding-left: 10px;
+}
+
+-fecha {
+    position: relative;
+    top: 10rem;
+}
+
+nav p {
+    font-size: 13px;
 }
